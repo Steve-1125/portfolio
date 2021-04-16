@@ -79,61 +79,81 @@ header {
   color: #fff;
 }
 
-.header__title {
-  font-style: italic;
-  font-size: 8.6rem;
-  text-align: center;
-  padding: 200px;
-}
-
-.header__img {
-  width: 600px;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-
 main {
   width: 980px;
   margin: 0 auto;
 }
 
-.contents__title {
+.about__title {
   font-size: 5.5rem;
-  margin: 200px 0 80px 0;
+  margin: 50px 0 80px 0;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #eee;
 }
 
-.contents__list {
-  list-style-type: none;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+.about__intro {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
-.contents__list h2 {
-  font-size: 3rem;
-  font-family: "Roboto";
+.about__intro img {
+  border: 1px solid #eee;
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
 }
 
-.contents__list p {
-  padding: 10px 40px 20px 40px;
-  font-size: 1.5rem;
+.about__intro--list {
+  line-height: 50px;
+  text-align: left;
+  float: right;
+  font-size: 2.5rem;
 }
 
-.contents__list--web {
-  width: 33.333%;
+.about__intro--list p {
+  border-bottom: 2px solid #eee;
 }
 
-.contents__list--movie {
-  width: 33.333%;
+.about__details {
+  text-align: left;
+  margin-top: 300px;
+  font-size: 2rem;
+  border-top: 2px solid #eee;
+  padding-top: 50px;
 }
 
-.contents__list--programming {
-  width: 33.333%;
+.about__details ul {
+  margin-left: 80px;
 }
 
-.fa-code, .fa-video, .fa-pen {
-  font-size: 4rem;
-  padding: 20px 0;
+.about__details--list {
+  line-height: 50px;
+}
+
+.about__promotion {
+  margin-top: 70px;
+}
+
+.about__promotion p {
+  font-size: 2.5rem;
+}
+
+.about__promotion button {
+  margin-top: 30px;
+  width: 50%;
+  font-size: 2rem;
+  height: 50px;
+  background-color: #9BE7FF;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  outline: none;
+  border: 2px solid #5dd9ff;
+}
+
+.about__promotion button:hover {
+  background-color: #5dd9ff;
+  color: #fff;
 }
 
 footer {
@@ -192,4 +212,4 @@ footer {
   margin: 0 auto;
   padding-top: 150px;
 }
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=about.css.map */

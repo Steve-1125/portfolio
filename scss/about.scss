@@ -79,17 +79,6 @@ header{
         }
     
     }
-    &__title{
-        font-style: italic;
-        font-size: 8.6rem;
-        text-align: center;
-        padding: 200px;
-    }
-    &__img{
-        width: 600px;
-        margin: 0 auto;
-        padding: 0 auto;
-    }
 }
 
 
@@ -99,39 +88,75 @@ main{
     margin: 0 auto;
 }
 
-.contents{
+.about{
     &__title{
         font-size: 5.5rem;
-        margin: 200px 0 80px 0;
+        margin: 50px 0 80px 0;
+        padding-bottom: 40px;
+        border-bottom: 2px solid $font_sub;
     }
-    &__list{
-        list-style-type: none;
-        display: inline-flex;
 
-        h2{
-            font-size: 3rem;
-            font-family: $sub_family;
+    &__intro{
+        width: 100%;
+        padding-bottom: 30px;
+        img{
+            border: 1px solid $font_sub;
+            float: left;
+            width: 250px;
+            height: 250px;
+            margin-left: 100px;
+
         }
+        &--list{
+            line-height: 50px;
+            text-align: left;
+            float: right;
+            font-size: 2.5rem;
+
+            p{
+                border-bottom: 2px solid $font_sub;
+            }
+        }
+
+    }
+
+    &__details{
+        text-align: left;
+        margin-top: 300px;
+        font-size: 2rem;
+        border-top: 2px solid $font_sub;
+        padding-top: 50px;
+
+        ul{
+            margin-left: 80px;
+        }
+
+        &--list{
+            line-height: 50px;
+        }
+    }
+
+    &__promotion{
+        margin-top: 70px;
         p{
-            padding: 10px 40px 20px 40px;
-            font-size: 1.5rem;
+            font-size: 2.5rem;
         }
-
-        &--web{
-            width: 33.333%;
-        }
-        &--movie{
-            width: 33.333%;
-        }
-        &--programming{
-            width: 33.333%;
+        button{
+            margin-top: 30px;
+            width: 50%;
+            font-size: 2rem;
+            height: 50px;
+            background-color: $bgcolor_main;
+            transition: all .4s;
+            outline: none;
+            border: 2px solid $changecolor_main;
+            &:hover{
+                background-color: $changecolor_main;
+                color: $changecolor_sub;
+            }
         }
     }
-}
 
-.fa-code,.fa-video,.fa-pen{
-    font-size: 4rem;
-    padding:20px 0;
 }
 
 // フッター
