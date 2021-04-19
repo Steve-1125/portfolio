@@ -25,6 +25,14 @@ body{
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 
+<<<<<<< HEAD
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+=======
+>>>>>>> b7ae176484a013d104be3ef2660c8d094ee38b29
 li{
     list-style-type: none;
 }
@@ -88,7 +96,11 @@ main{
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
+.works{
+=======
 .about{
+>>>>>>> b7ae176484a013d104be3ef2660c8d094ee38b29
     &__title{
         font-size: 5.5rem;
         margin: 50px 0 80px 0;
@@ -96,6 +108,50 @@ main{
         border-bottom: 2px solid $font_sub;
     }
 
+<<<<<<< HEAD
+    &__tab{
+        width: 500px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    &__menu{
+        display: flex;
+
+        &--item{
+            text-align: center;
+            padding: 10px 0;
+            cursor: pointer;
+            flex-grow: 1;
+            border-top: 1px solid skyblue;
+            border-left: 1px solid skyblue;
+            border-right: 1px solid skyblue;
+
+            &:not{
+                border-left: none;
+            }
+
+            &.active{
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+
+    &__box{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid skyblue;
+
+        &--contents{
+            display: none;
+            font-size: 40px;
+
+            &.show{
+                display: block;
+=======
     &__intro{
         width: 100%;
         padding-bottom: 30px;
@@ -153,6 +209,7 @@ main{
             &:hover{
                 background-color: $changecolor_main;
                 color: $changecolor_sub;
+>>>>>>> b7ae176484a013d104be3ef2660c8d094ee38b29
             }
         }
     }
