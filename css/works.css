@@ -1,0 +1,211 @@
+@charset "UTF-8";
+html {
+  font-family: "NotoSansCJKjp";
+  font-size: 62.5%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  /*←相対位置*/
+  padding-bottom: 300px;
+  /*←footerの高さ*/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*←全て含めてmin-height:100vhに*/
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fas, .fab {
+  color: black;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__container {
+  background-color: #9BE7FF;
+}
+
+.header__container--name {
+  font-size: 2.5rem;
+  color: #fff;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.header__container--menu {
+  width: 980px;
+  font-size: 3rem;
+  padding: 30px 0 10px 0;
+  margin: 0 auto;
+}
+
+.header__container--menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__container--menu ul li {
+  width: 25%;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.header__container--menu ul li a {
+  display: block;
+  color: black;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.header__container--menu ul li a:hover {
+  background-color: #5dd9ff;
+  color: #fff;
+}
+
+main {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.works__title {
+  font-size: 5.5rem;
+  margin: 50px 0 80px 0;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #eee;
+}
+
+.works__tab {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.works__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works__menu--item {
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-top: 1px solid skyblue;
+  border-left: 1px solid skyblue;
+  border-right: 1px solid skyblue;
+}
+
+.works__menu--item:not {
+  border-left: none;
+}
+
+.works__menu--item.active {
+  background-color: red;
+  color: white;
+}
+
+.works__box {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid skyblue;
+}
+
+.works__box--contents {
+  display: none;
+  font-size: 40px;
+}
+
+.works__box--contents.show {
+  display: block;
+}
+
+footer {
+  width: 100%;
+  padding-top: 50px;
+  background-color: #9BE7FF;
+  position: absolute;
+  /*←絶対位置*/
+  bottom: 0;
+  /*下に固定*/
+}
+
+.footer__container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.footer__container nav ul {
+  list-style-type: none;
+  float: left;
+  font-size: 1.5rem;
+}
+
+.footer__container nav li {
+  padding-bottom: 10px;
+}
+
+.footer__container nav li a {
+  color: black;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.footer__container nav li a:hover {
+  color: #fff;
+}
+
+.footer__container--icon {
+  float: right;
+  font-size: 3rem;
+}
+
+.footer__container--icon .fa-envelope, .footer__container--icon .fa-twitter-square {
+  padding-right: 20px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.footer__container--icon .fa-envelope:hover, .footer__container--icon .fa-twitter-square:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer__container p {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+/*# sourceMappingURL=works.css.map */
