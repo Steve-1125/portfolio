@@ -16,4 +16,4 @@ $(function() {
       //タブのインデックス番号と同じコンテンツにshowクラスをつけて表示する
       $('.works__box--contents').eq(index).addClass('show');
     });
-  });
+});
