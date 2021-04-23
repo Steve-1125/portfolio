@@ -215,15 +215,43 @@ main {
 .works__box--list li {
   width: 33.333%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
-.works__box--list a {
+.works__box--list--img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.works__box--list--img a {
   display: inline-block;
+}
+
+.works__box--list--img img {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.works__box--list--img img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .works__box--list img {
   width: 75%;
   margin-top: 40px;
+  overflow: hidden;
+}
+
+.works__box--list img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .works__box--list p {

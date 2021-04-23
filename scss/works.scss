@@ -209,15 +209,40 @@ main{
             li{
                 width: 33.333%;
                 margin: 0 auto;
+                overflow: hidden;
             }
 
-            a{
-                display: inline-block;
+            &--img{
+                width: 100%;
+                overflow: hidden;
+
+                a{
+                    display: inline-block;
+                }
+
+                img{
+                    transition:all .5s;
+                    backface-visibility:hidden;
+                    -webkit-backface-visibility: hidden;
+                }
+
+                img:hover{
+                    transform:scale(1.2,1.2);
+                    transition:all .5s;
+                    backface-visibility:hidden;
+                    -webkit-backface-visibility: hidden;
+                }
             }
 
             img{
                 width: 75%;
                 margin-top: 40px;
+                overflow: hidden;
+
+                &:hover{
+                    transform: scale(1.2,1.2);
+
+                }
             }
 
             p{
