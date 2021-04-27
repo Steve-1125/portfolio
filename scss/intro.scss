@@ -10,7 +10,7 @@ $main_family: "NotoSansCJKjp";
 $sub_family: "Roboto";
 
 html{
-    font-family: $main_family;
+    font-family: $main_family,$sub_family;
 	font-size: 62.5%;
     margin: 0 auto;
     padding: 0 auto;
