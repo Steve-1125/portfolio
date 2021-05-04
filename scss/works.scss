@@ -224,6 +224,9 @@ main{
                     transition:all .5s;
                     backface-visibility:hidden;
                     -webkit-backface-visibility: hidden;
+                    opacity: 1;
+                    -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
                 }
 
                 img:hover{
@@ -231,6 +234,7 @@ main{
                     transition:all .5s;
                     backface-visibility:hidden;
                     -webkit-backface-visibility: hidden;
+                    opacity: .5;
                 }
             }
 

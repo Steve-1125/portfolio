@@ -11,12 +11,9 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   position: relative;
-  /*←相対位置*/
   padding-bottom: 300px;
-  /*←footerの高さ*/
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /*←全て含めてmin-height:100vhに*/
 }
 
 li {
@@ -135,7 +132,7 @@ main {
 
 .contents__title {
   font-size: 5.5rem;
-  margin: 200px 0 80px 0;
+  margin: 100px 0 80px 0;
 }
 
 .contents__list {

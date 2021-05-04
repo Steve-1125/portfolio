@@ -232,6 +232,9 @@ main {
   transition: all .5s;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .works__box--list--img img:hover {
@@ -241,6 +244,7 @@ main {
   transition: all .5s;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  opacity: .5;
 }
 
 .works__box--list img {
