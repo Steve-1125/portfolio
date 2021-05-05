@@ -76,17 +76,8 @@ header {
   color: #fff;
 }
 
-.header__title {
-  font-style: italic;
-  font-size: 8.6rem;
-  text-align: center;
-  padding: 200px;
-}
-
 .header__img {
-  width: 600px;
-  margin: 0 auto;
-  padding: 0 auto;
+  width: 980px;
 }
 
 #page-animate::before {

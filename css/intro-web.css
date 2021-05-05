@@ -1,0 +1,161 @@
+@charset "UTF-8";
+html {
+  font-family: "NotoSansCJKjp", "Roboto";
+  font-size: 62.5%;
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 1600px;
+}
+
+body {
+  text-align: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  /*←相対位置*/
+  padding-bottom: 300px;
+  /*←footerの高さ*/
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*←全て含めてmin-height:100vhに*/
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fas, .fab {
+  color: black;
+}
+
+#page-animate::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9BE7FF;
+  z-index: 9999;
+  pointer-events: none;
+  right: 100%;
+  -webkit-transition: right 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: right 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#page-animate::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9BE7FF;
+  z-index: 9999;
+  pointer-events: none;
+  left: 100%;
+  -webkit-transition: left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#page-animate.is-slide-in::before {
+  right: 0;
+}
+
+#page-animate.is-slide::after {
+  left: 0;
+}
+
+main {
+  width: 980px;
+  margin: 0 auto;
+  color: black;
+}
+
+.fa-arrow-left {
+  font-size: 2.5rem;
+  float: left;
+  padding-top: 20px;
+}
+
+.intro {
+  margin-bottom: 100px;
+}
+
+.intro__title {
+  font-size: 5.5rem;
+  padding: 80px 0 40px 0;
+  margin-bottom: 80px;
+  border-bottom: 2px solid #eee;
+}
+
+.intro__imgs {
+  float: left;
+  width: 50%;
+}
+
+.intro__imgs--list img {
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+.intro__imgs--list p {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.intro__imgs--list--top {
+  margin-bottom: 100px;
+}
+
+.intro__imgs--list--sub {
+  margin-bottom: 30px;
+}
+
+.intro__txts {
+  float: right;
+  width: 50%;
+}
+
+.intro__txts--list--top {
+  margin-top: 30px;
+}
+
+.intro__txts--list--top p {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.intro__txts--list--top h3 {
+  text-align: left;
+  font-size: 4rem;
+  line-height: 50px;
+  margin-left: 50px;
+}
+
+.intro__txts--list--top button {
+  margin-top: 50px;
+  width: 75%;
+  font-size: 2rem;
+  height: 50px;
+  background-color: #9BE7FF;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  outline: none;
+  border: 2px solid #5dd9ff;
+}
+
+.intro__txts--list--top button:hover {
+  background-color: #5dd9ff;
+  color: #fff;
+}
+
+.intro__txts--list--sub {
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 160px 30px 0 0;
+  line-height: 30px;
+}
+/*# sourceMappingURL=intro-web.css.map */
