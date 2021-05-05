@@ -173,6 +173,17 @@ main{
             line-height: 50px;
         }
     }
+    
+    &__explanation{
+        text-align: left;
+        margin-top: 50px;
+        font-size: 2rem;
+        border-top: 2px solid $font_sub;
+        padding-top: 10px;
+        li{
+            padding-top: 30px;
+        }
+    }
 
     &__promotion{
         margin-top: 70px;

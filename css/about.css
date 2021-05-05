@@ -167,6 +167,18 @@ main {
   line-height: 50px;
 }
 
+.about__explanation {
+  text-align: left;
+  margin-top: 50px;
+  font-size: 2rem;
+  border-top: 2px solid #eee;
+  padding-top: 10px;
+}
+
+.about__explanation li {
+  padding-top: 30px;
+}
+
 .about__promotion {
   margin-top: 70px;
 }
