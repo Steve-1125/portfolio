@@ -158,4 +158,133 @@ main {
   margin: 160px 30px 0 0;
   line-height: 30px;
 }
+
+@media screen and (max-width: 959px) {
+  main {
+    width: 480px;
+  }
+  .header__container--menu {
+    width: 480px;
+  }
+  .header__container--menu ul {
+    display: list-item;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header__container--menu ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    border: none;
+  }
+  .header__container--menu ul li a {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .intro {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .intro__imgs {
+    float: none;
+    width: 100%;
+  }
+  .intro__imgs--list--top {
+    margin: 0 auto;
+  }
+  .intro__imgs--list p {
+    display: none;
+  }
+  .intro__imgs--list--sub {
+    display: none;
+  }
+  .intro__txts {
+    float: none;
+    width: 100%;
+  }
+  .intro__txts--list {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .intro__txts--list--sub {
+    margin: 80px 30px 0 0;
+  }
+  .footer__container {
+    width: 100%;
+  }
+  .footer__container--icon {
+    width: 10%;
+    margin-right: 10px;
+  }
+  .footer__container--icon .fa-envelope, .footer__container--icon .fa-twitter-square {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 0.5rem;
+  }
+  main {
+    width: 350px;
+  }
+  .header__container--menu {
+    width: 350px;
+  }
+  .header__container--menu ul {
+    display: list-item;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header__container--menu ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    border: none;
+  }
+  .header__container--menu ul li a {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .intro {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .intro__imgs {
+    float: none;
+    width: 100%;
+  }
+  .intro__imgs--list--top {
+    margin: 0 auto;
+  }
+  .intro__imgs--list p {
+    display: none;
+  }
+  .intro__imgs--list--sub {
+    display: none;
+  }
+  .intro__txts {
+    float: none;
+    width: 100%;
+  }
+  .intro__txts--list {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .intro__txts--list--sub {
+    margin: 80px 30px 0 0;
+  }
+  .footer__container {
+    width: 100%;
+  }
+  .footer__container--icon {
+    width: 10%;
+    margin-right: 10px;
+  }
+  .footer__container--icon .fa-envelope, .footer__container--icon .fa-twitter-square {
+    float: none;
+  }
+}
 /*# sourceMappingURL=intro-web.css.map */

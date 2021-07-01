@@ -297,25 +297,122 @@ main {
   color: #fff;
 }
 
-.works .footer__container--icon {
+.works .footer--icon {
   float: right;
   font-size: 3rem;
 }
 
-.works .footer__container--icon .fa-envelope, .works .footer__container--icon .fa-twitter-square {
+.works .footer--icon .fa-envelope, .works .footer--icon .fa-twitter-square {
   padding-right: 20px;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
 
-.works .footer__container--icon .fa-envelope:hover, .works .footer__container--icon .fa-twitter-square:hover {
+.works .footer--icon .fa-envelope:hover, .works .footer--icon .fa-twitter-square:hover {
   color: #fff;
   cursor: pointer;
 }
 
-.works .footer__container p {
+.works .footer p {
   font-size: 1.5rem;
   margin: 0 auto;
   padding-top: 150px;
+}
+
+@media screen and (max-width: 959px) {
+  main {
+    width: 480px;
+  }
+  .header__container--menu {
+    width: 480px;
+  }
+  .header__container--menu ul {
+    display: list-item;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header__container--menu ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    border: none;
+  }
+  .header__container--menu ul li a {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .works__title {
+    margin-bottom: 30px;
+  }
+  .works__box {
+    height: 900px;
+  }
+  .works__box--list li {
+    width: 50%;
+  }
+  .footer__container {
+    width: 100%;
+  }
+  .footer__container nav {
+    margin-left: 20px;
+  }
+  .footer__container--icon {
+    width: 10%;
+    margin-right: 10px;
+  }
+  .footer__container--icon .fa-envelope, .footer__container--icon .fa-twitter-square {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 0.5rem;
+  }
+  main {
+    width: 350px;
+  }
+  .header__container--menu {
+    width: 350px;
+  }
+  .header__container--menu ul {
+    display: list-item;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .header__container--menu ul li {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    border: none;
+  }
+  .header__container--menu ul li a {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .works__title {
+    margin-bottom: 30px;
+  }
+  .works__box {
+    height: 700px;
+  }
+  .works__box--list li {
+    width: 50%;
+  }
+  .footer__container {
+    width: 100%;
+  }
+  .footer__container nav {
+    margin-left: 20px;
+  }
+  .footer__container--icon {
+    width: 10%;
+    margin-right: 10px;
+  }
+  .footer__container--icon .fa-envelope, .footer__container--icon .fa-twitter-square {
+    float: none;
+  }
 }
 /*# sourceMappingURL=works.css.map */

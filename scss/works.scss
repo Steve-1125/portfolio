@@ -285,7 +285,7 @@ footer{
                     }
                 }
             }
-    
+        }
         }
 
         &--icon{
@@ -300,7 +300,6 @@ footer{
                     cursor: pointer;
                 }
             }
-    
         }
 
         p{
@@ -310,4 +309,122 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 959px) {
+    main{
+        width: 480px;
+    }
+
+    .header__container--menu{
+        width: 480px;
+        ul{
+            display: list-item;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+            li{
+                text-align: center;
+                padding: 5px;
+                margin: 0 auto;
+                border: none;
+                a{
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .works{
+        &__title{
+            margin-bottom: 30px;
+        }
+        &__box{
+            height: 900px;
+            &--list{
+                li{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .footer{
+        &__container{
+            width: 100%;
+            nav{
+                margin-left: 20px;
+            }
+            &--icon{    
+                width: 10%;
+                margin-right: 10px;
+                .fa-envelope,.fa-twitter-square{
+
+                    float: none;
+                }
+        
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 0.5rem;
+    }
+
+    main{
+        width: 350px;
+    }
+
+    .header__container--menu{
+        width: 350px;
+        ul{
+            display: list-item;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+            li{
+                text-align: center;
+                padding: 5px;
+                margin: 0 auto;
+                border: none;
+                a{
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .works{
+        &__title{
+            margin-bottom: 30px;
+        }
+        &__box{
+            height: 700px;
+            &--list{
+                li{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .footer{
+        &__container{
+            width: 100%;
+            nav{
+                margin-left: 20px;
+            }
+            &--icon{    
+                width: 10%;
+                margin-right: 10px;
+                .fa-envelope,.fa-twitter-square{
+
+                    float: none;
+                }
+        
+            }
+        }
+    }
 }
