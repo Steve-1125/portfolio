@@ -147,12 +147,25 @@ main{
         }
         &--list{
             line-height: 50px;
-            text-align: left;
             float: right;
             font-size: 2.5rem;
 
             p{
+                text-align: left;
                 border-bottom: 2px solid $font_sub;
+            }
+
+            &--question1{
+                margin-right: 300px;
+            }
+            &--question2{
+                margin-right: 310px;
+            }
+            &--question3{
+                margin-right: 336px;
+            }
+            &--question4{
+                margin-right: 310px;
             }
         }
 
@@ -299,7 +312,19 @@ footer{
             }
             &--list{
                 float: right;
-                margin-right: 50px;
+                margin-right: 40px;
+                &--question1{
+                    margin-right: 220px;
+                }
+                &--question2{
+                    margin-right: 230px;
+                }
+                &--question3{
+                    margin-right: 255px;
+                }
+                &--question4{
+                    margin-right: 230px;
+                }
             }
         }
         &__details{
@@ -367,7 +392,19 @@ footer{
             }
             &--list{
                 float: right;
-                margin-right: 20px;
+                margin-right: 40px;
+                &--question1{
+                    margin-right: 120px;
+                }
+                &--question2{
+                    margin-right: 125px;
+                }
+                &--question3{
+                    margin-right: 145px;
+                }
+                &--question4{
+                    margin-right: 125px;
+                }
             }
         }
         &__details{
